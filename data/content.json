@@ -1,0 +1,66 @@
+[
+    {
+        "src": "./images/canada.jpg",
+        "title": "Канада",
+        "price": "1200",
+        "discount": "",
+        "region": "Америка",
+        "description": "`Проживання в готелі 6 діб<br>All inclusive<br>Неймовірні види з номерів<br>Центр Торонто<br>Гарне місто`"
+    },
+    {
+        "src": "./images/turkey.jpg",
+        "title": "Турція",
+        "price": "500",
+        "discount": "",
+        "region": "Європа",
+        "description": "`Проживання в готелі 6 діб<br>All inclusive<br>Дешеві авіаквитки!<br>Приємна атмосфера<br>Мінус: багато москалів`"
+    },
+    {
+        "src": "./images/dubai.jpg",
+        "title": "Дубаї",
+        "price": "900",
+        "discount": "-30",
+        "region": "Азія",
+        "description": "`Проживання в готелі 9 діб<br>All inclusive<br>Переліт в першому класі<br>Розкішне життя`"
+    },
+    {
+        "src": "./images/france.jpg",
+        "title": "Франція",
+        "price": "400",
+        "discount": "-50",
+        "region": "Європа",
+        "description": "`Проживання в готелі 6 діб<br>All inclusive<br>Фантастичний пляж<br>Море розваг`"
+    },
+    {
+        "src": "./images/Spain.jpg",
+        "title": "Іспанія",
+        "price": "700",
+        "discount": "-20",
+        "region": "Європа",
+        "description": "`Проживання в готелі 9 діб<br>All inclusive<br>Переліт в першому класі<br>Неймовірні пляжі`"
+    },
+    {
+        "src": "./images/Thailand.jpg",
+        "title": "Тайланд",
+        "price": "1000",
+        "discount": "",
+        "region": "Азія",
+        "description": "`Проживання в готелі 9 діб<br>All inclusive<br>Переліт в першому класі<br>Тропічний клімат`"
+    },
+    {
+        "src": "./images/USA.jpg",
+        "title": "США",
+        "price": "1400",
+        "discount": "-10",
+        "region": "Америка",
+        "description": "`Проживання в готелі 9 діб<br> All inclusive<br> Переліт в першому класі<br> Казино та інші розваги`"
+    },
+    {
+        "src": "./images/Croatia.jpg",
+        "title": "Хорватія",
+        "price": "600",
+        "discount": "",
+        "region": "Європа",
+        "description": "`Проживання в готелі 9 діб<br> All inclusive<br> Переліт в першому класі<br> Балканські гори`"
+    }
+]

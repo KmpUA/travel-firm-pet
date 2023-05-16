@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,
+                         initial-scale=1.0">
+  <link href="css/index.css" rel="stylesheet" type="text/css">
+  <link href="css/login.css" rel="stylesheet" type="text/css">
+  <title>Globetrotter</title>
+</head>
+
+<body class="body">
+  <div id="loader"></div>
+  <div id="subscribe-popup" class="subscribe-popup hidden">
+    <div class="subscribe-popup-content">
+      <h2>Підписатися на повідомлення</h2>
+      <p>Не пропускайте наші новини та акції, підпишіться на наші повідомлення!</p>
+      <div class="subscribe-popup-buttons">
+        <button id="subscribe-accept" class="default-button" style="margin: 5px;">Підписатися</button>
+        <button id="subscribe-reject" class="default-button" style="margin: 5px;">Не зараз</button>
+      </div>
+    </div>
+  </div>
+  <div>
+    <a class="slide_button" id="up-btn" href="#">^</a>
+  </div>
+  <div class="navigation wf-section"></div>
+  <div data-collapse="all" data-animation="default" data-duration="400" data-easing="ease-out" data-easing2="ease out"
+    role="banner" class="navigation w-nav">
+    <div class="navigation-container">
+      <a href="/index.html" aria-current="page" class="logo w-inline-block"><img class="logo1"
+          src="./images/logo1.png"></a>
+      <div class="hamburger-menu">
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+          <span></span>
+        </label>
+        <ul class="menu__box">
+          <li><a class="menu__item" href="#">Головна</a></li>
+          <li><a class="menu__item" href="index.html#container-meme">Тури</a></li>
+          <li><a class="menu__item" href="about-us-page.html">Про нас</a></li>
+          <li><a class="menu__item" href="info-page.html">Інформація</a></li>
+          <li><a class="menu__item" href="login-page.html">Авторизація</a></li>
+          <li><a class="menu__item" href="Lab4Page.html">Бутстрап</a></li>
+        </ul>
+      </div>
+      <nav role="navigation" class="nav-menu w-nav-menu">
+        <ul class="topmenu" style="display: flex;flex-direction: row;">
+          <li><a href="index.html#container-meme" class="nav-link w-nav-link">Тури</a>
+            <ul class="submenu">
+              <li><a href="index.html#prod1">Перший блок</a></li>
+              <li><a href="index.html#prod2">Другий блок</a></li>
+            </ul>
+          </li>
+          <li><a href="info-page.html" class="nav-link w-nav-link">Інформація</a></li>
+          <li><a href="about-us-page.html" class="nav-link w-nav-link">Про нас</a></li>
+        </ul>
+      </nav>
+      <div class="reg">
+        <div class="log log-1"><a href="login-page.html" class="nav-link1 w-nav-link1">Авторизація</a></div>
+      </div>
+      <div class="menu-button w-nav-button">
+        <div class="icon-2 w-icon-nav-menu"></div>
+      </div>
+    </div>
+  </div>
+  <main>
+    <div class="login-container">
+      <div class="login-slider"></div>
+      <div class="login-btn">
+        <button class="login">Авторизація</button>
+        <button class="signup">Реєстрація</button>
+      </div>
+      <div class="form-section">
+        <div class="login-box">
+          <input type="email" class="email ele" placeholder="Пошта">
+          <input type="password" class="password ele" placeholder="Пароль">
+          <label class="check-alert-login" for="email"></label>
+          <button class="clkbtn">Login</button>
+        </div>
+        <div class="signup-box">
+          <input type="text" class="name ele" placeholder="Введіть ваше ім'я" style="text-align: start;">
+          <input type="email" class="email ele" placeholder="Пошта">
+          <input type="password" class="password ele" placeholder="Пароль">
+          <input type="password" class="password ele" placeholder="Повторіть пароль">
+          <label class="check-alert" for="email"></label>
+          <div id="message">
+            <h3>Password must contain the following:</h3>
+            <p id="letter" class="invalid">A <b>lowercase</b> letter</p>
+            <p id="capital" class="invalid">A <b>capital (uppercase)</b> letter</p>
+            <p id="number" class="invalid">A <b>number</b></p>
+            <p id="length" class="invalid">Minimum <b>8 characters</b></p>
+          </div>
+          <button class="clkbtn">Signup</button>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="./scripts/login.js"></script>
+  <script src="./scripts/up-button.js"></script>
+  <script src="./scripts/loader.js"></script>
+  <script src="./scripts/subscription.js"></script>
+</body>
+
+</html>

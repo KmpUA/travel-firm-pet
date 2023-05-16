@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/index.css" rel="stylesheet" type="text/css">
+  <title>Globetrotter</title>
+</head>
+
+<body>
+  <div id="loader"></div>
+  <div id="subscribe-popup" class="subscribe-popup hidden">
+    <div class="subscribe-popup-content">
+      <h2>Підписатися на повідомлення</h2>
+      <p>Не пропускайте наші новини та акції, підпишіться на наші повідомлення!</p>
+      <div class="subscribe-popup-buttons">
+        <button id="subscribe-accept" class="default-button" style="margin: 5px;">Підписатися</button>
+        <button id="subscribe-reject" class="default-button" style="margin: 5px;">Не зараз</button>
+      </div>
+    </div>
+  </div>
+  <div>
+    <a class="slide_button" id="up-btn" href="#">^</a>
+  </div>
+  <div data-collapse="all" data-animation="default" data-duration="400" data-easing="ease-out" data-easing2="ease out"
+    role="banner" class="navigation w-nav">
+    <div class="navigation-container">
+      <a href="../html and css/index.html" aria-current="page" class="logo w-inline-block"><img class="logo1"
+          src="./images/logo1.png"></a>
+      <div class="hamburger-menu">
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+          <span></span>
+        </label>
+        <ul class="menu__box">
+          <li><a class="menu__item" href="#">Головна</a></li>
+          <li><a class="menu__item" href="#container-meme">Тури</a></li>
+          <li><a class="menu__item" href="../html and css/about-us-page.html">Про нас</a></li>
+          <li><a class="menu__item" href="../html and css/info-page.html">Інформація</a></li>
+          <li><a class="menu__item" href="../html and css/login-page.html">Авторизація</a></li>
+          <li><a class="menu__item" href="../html and css/Lab4Page.html">Бутстрап</a></li>
+        </ul>
+      </div>
+      <nav role="navigation" class="nav-menu w-nav-menu">
+        <ul class="topmenu" style="display: flex;flex-direction: row;">
+          <li><a href="index.html#container-meme" class="nav-link w-nav-link">Тури</a>
+            <ul class="submenu">
+              <li><a href="../html and css/index.html#prod1">Перший блок</a></li>
+              <li><a href="../html and css/index.html#prod2">Другий блок</a></li>
+            </ul>
+          </li>
+          <li><a href="../html and css/info-page.html" class="nav-link w-nav-link">Інформація</a></li>
+          <li><a href="../html and css/about-us-page.html" class="nav-link w-nav-link">Про нас</a></li>
+        </ul>
+      </nav>
+      <div class="reg">
+        <div class="login log-1"><a href="login-page.html" class="nav-link1 w-nav-link1">Авторизація</a></div>
+      </div>
+      <div class="menu-button w-nav-button">
+        <div class="icon-2 w-icon-nav-menu"></div>
+      </div>
+    </div>
+  </div>
+  <main class="aside-wrapper" style="padding-top: 10%;">
+    <form class="feedback">
+      <h1 style="text-align:center; font-size: 250%;">
+        Хочете звернутися? Заповнюйте форму😀
+      </h1>
+      <div id="wrapper">
+        <div id="arrow"></div>
+        <input id="email" placeholder="Ваше ПІБ" type="text">
+        <input id="tel" placeholder="Введіть номер телефону(0661234567)" type="tel" pattern="[0-9]{10}">
+        <input id="email" placeholder="Введіть ваш e-mail" type="email">
+      </div>
+      <button class="default-button" type="submit">
+        <span>
+          Відправити
+        </span>
+      </button>
+    </form>
+  </main>
+  <footer>
+    <div class="footer-content">
+      <h3>Globetrotter</h3>
+      <p>Бажаємо вам гарного відпочинку з нашим туроператом</p>
+      <ul class="socials">
+        <li><a href="https://www.facebook.com/"><img src="./images/facebook.png" style="height:5vw;width:5vw;"></a></li>
+        <li><a href="https://www.instagram.com/paranyuk91/"><img src="./images/instagram.png"
+              style="height:5vw;width:5vw;"></a></li>
+        <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"><img src="./images/youtube.png"
+              style="height:5vw;width:5vw;"></i></a></li>
+      </ul>
+    </div>
+    <div class="footer-bottom">
+      <p>copyright &copy; <a href="#">Globetrotter</a> </p>
+      <div class="footer-menu">
+        <ul class="f-menu">
+          <li><a href="./index.html#container-meme">Тури</a></li>
+          <li><a href="./about-us-page.html">Про нас</a></li>
+          <li><a href="./info-page.html">Інформація</a></li>
+          <li><a href="./login-page.html">Авторизація</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <script src="./scripts/aside.js"></script>
+  <script src="./scripts/up-button.js"></script>
+  <script src="./scripts/loader.js"></script>
+  <script src="./scripts/subscription.js"></script>
+</body>
+
+
+</html>
